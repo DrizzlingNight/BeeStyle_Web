@@ -1,0 +1,889 @@
+{
+  "language": "繁體中文",
+  "confirmBtn": "確認",
+  "cancelBtn": "取消",
+  "defaultNone": "暫無相關內容",
+  "networkErr": "哎呀，網絡出錯了",
+  "getNothing": "抱歉～沒有搜索出來",
+  "errorPassword": "密碼錯誤",
+  "copySuccess": "複製成功",
+  "owner": "擁有者：",
+  "errorClose": "操作已放棄",
+  "tip": {
+    "sendSuccess": "發送成功",
+    "sendFailed": "設定失敗",
+    "bindSuccess": "綁定成功",
+    "bindFailed": "綁定失敗",
+    "setSuccess": "設定成功",
+    "setFailed": "設定失敗",
+    "modifySuccess": "修改成功",
+    "modifyFailed": "修改失敗",
+    "incorrectPassword": "密碼錯誤",
+    "addSuccess": "添加成功",
+    "addFailed": "添加失敗",
+    "copySuccess": "複製成功",
+    "copyFailed": "複製失敗",
+    "withdrawSuccess": "轉出申請成功",
+    "withdrawFailed": "轉出申請失敗",
+    "uploadSuccess": "上傳成功",
+    "uploadFailed": "上傳失敗",
+    "loginToSeeUser": "請登入以查看個人資料"
+  },
+  "navibar": {
+    "login": "登入",
+    "marketplace": "交易市場",
+    "wallet": "錢包",
+    "logout": "登出",
+    "account": "個人中心",
+    "history": "歷史紀錄",
+    "logOut": "登出"
+  },
+  "loginAndResister": {
+    "email": "郵箱",
+    "password": "密碼",
+    "login": "登入",
+    "create": "創建",
+    "code": "驗證碼"
+  },
+  "login": {
+    "noAccount": "還沒有賬戶?",
+    "register": "註冊",
+    "title": "歡迎回到Beestyle",
+    "noPassword": "忘記密碼"
+  },
+  "register": {
+    "haveAccount": "已有賬戶",
+    "title": "創建一個賬號",
+    "username": "用戶名",
+    "againAccount": "確認密碼",
+    "text": "創建賬戶意味著您接受我們的",
+    "textService": "服務條款",
+    "createAccount": "創建用戶",
+    "errorEmail": "無效郵箱",
+    "errorUsername": "非法字符、已被使用",
+    "errorPassword": "密碼應至少為8字符，並且至少包含一個特殊字符，大寫字母，小寫字母和一個數字",
+    "errorAgainPassword": "兩個密碼不一致",
+    "success": "註冊成功",
+    "successText": "您的賬號已註冊成功，請前往登錄",
+    "failed": "註冊失敗",
+    "failedText": "抱歉，註冊失敗",
+    "failedBtn": "返回登錄"
+  },
+  "detailTab": {
+    "address": "合約地址",
+    "id": "錢包地址",
+    "blockchain": "區塊鏈"
+  },
+  "resetPassword": {
+    "title": "重置密碼",
+    "btn": "確認密碼",
+    "countinue": "繼續",
+    "verificationCode": "驗證碼",
+    "newPassword": "新的密碼",
+    "confirmPassword": "確認新的密碼",
+    "sendVerificationCode": "發送驗證碼",
+    "getMail": "已收到郵件",
+    "resendMail": "重新發送郵件",
+    "setPasswordSuccess": "密碼修改成功"
+  },
+  "transferNFT": {
+    "title": "轉移",
+    "inputEmail": "請輸入郵箱",
+    "errorEmail": "該郵箱無效",
+    "successTransfer": "發放成功",
+    "successText": "你的NFT已經成功轉移到",
+    "errorTransfer": "發放失敗",
+    "errorText1": "用戶不存在",
+    "errorText2": "不能轉給自己!",
+    "continueTransfer": "繼續創建",
+    "backTransfer": "重新轉移",
+    "importNFT": "導入NFT",
+    "walletAddress": "錢包地址",
+    "contractAddress": "合約地址",
+    "selectYourNFT": "選擇你的NFT",
+    "addressMatch": "個地址匹配",
+    "selectToken": "請選擇一個令牌ID。",
+    "confirmImport": "確認導入",
+    "selectNFTNetwork": "選擇 NFT 網絡",
+    "onlySupportBSCETH": "目前只支持BSC和ETH網絡",
+    "confirm": "確認",
+    "binance": "幣安智能鏈",
+    "linkToWallet": "鏈接錢包",
+    "linkAgreement": "鏈接錢包即表示您同意 Beestyle 的",
+    "linkTerms": "服務條款",
+    "readAndConfirmTerms": "並確認您已閱讀並理解Beestyle",
+    "statement": "協議免責聲明",
+    "confirmWithdraw": "確認轉出",
+    "sureWithdraw": "你確定要轉出這個 NFT 嗎？",
+    "need24h": "處理時間最長可能需要 24 小時。",
+    "nftName": "NFT名稱",
+    "tokenId": "令牌ID",
+    "targetWalletAddress": "目標錢包地址",
+    "cancel": "取消",
+    "add": "添加",
+    "targetWalletAddressPlaceholder": "請輸入目標錢包地址",
+    "externalTransferOut": "NFT外部轉出",
+    "network": "網絡"
+  },
+  "createNFT": {
+    "title": "創建項目",
+    "upload": "點擊此處上傳",
+    "setCover": "點擊設為封面",
+    "imgText": "圖像",
+    "text": "支持的文件類型：JPG、PNG、SVG、GIF、WEBP、GLB。最大大小：100 MB。請使用長寬比為1:1的圖片效果最佳。",
+    "itemName": "項目名",
+    "namePlaceholder": "請輸入項目名",
+    "serialNo": "序列號",
+    "noPlaceholder": "輸入序列號",
+    "liabillties": "行權價",
+    "expiration": "到期",
+    "rate": "年費率",
+    "description": "描述",
+    "desPlaceholder": "輸入描述",
+    "category": "分類",
+    "cate1": "宗教藝術",
+    "cate2": "街頭藝術",
+    "cate3": "GAME-FI",
+    "rating": "評分",
+    "ratingPlaceholder": "輸入驗證",
+    "authentication": "鑑定",
+    "authentPlaceholder": "輸入鑑定",
+    "archiveName": "託管機構名稱",
+    "archiveNamePlaceholder": "輸入托管機構名稱",
+    "archiveAddress": "託管機構地址",
+    "archiveAddressPlaceholder": "輸入托管機構地址",
+    "btn": "創建",
+    "textRule": "必填",
+    "textRules": "最多50字符",
+    "addressRules": "最多100字符",
+    "textareaRules": "最多200字符",
+    "inputRules": "輸入錯誤，請重新輸入",
+    "successNFT": "創建成功",
+    "principal": "貸款本金",
+    "sore": "品級",
+    "achiveNameInfo": "託管機構名稱",
+    "fee": "手續費",
+    "feeText": "創建NFT將會收取一定的手續費，請保證餘額充足",
+    "balance": "你的餘額",
+    "keyword": "關鍵字",
+    "keywordDescription": "請在每個關鍵字後面輸入一個英文逗號",
+    "coin": "幣種",
+    "selectCoin": "選擇幣種"
+  },
+  "marketPlace": {
+    "list": "過濾器列表",
+    "priceOrder": "價格排序",
+    "priceOrderH2L": "從高到低",
+    "priceOrderL2H": "從低到高",
+    "timeOrder": "時間排序",
+    "timeOrderN2O": "從新到舊",
+    "timeOrderO2N": "從舊到新",
+    "price": {
+      "price": "價格",
+      "min": "最小",
+      "max": "最大",
+      "apply": "應用",
+      "priceErr": "最小值必須比最大值小"
+    },
+    "status": {
+      "status": "狀態",
+      "onAuction": "競標",
+      "buyNow": "直購"
+    },
+    "result": "結果"
+  },
+  "homepage": {
+    "homeInfo": {
+      "title": "Luxury Archive系列貴重品NFT",
+      "subtitle": "安全的託管，自由的交易",
+      "button": "瞭解更多"
+    },
+    "hot": {
+      "text": "熱門",
+      "offerer": "出價者",
+      "highestPrice": "最高價格",
+      "remaining": "剩餘時間",
+      "makeOffer": "出價",
+      "price": "價格"
+    },
+    "new": {
+      "text": "最新",
+      "loadBtn": "加載更多",
+      "loadBtnDisable": "暫無更多內容"
+    },
+    "selfAction": {
+      "title": "更現實的虛擬資產，更自由的NFT交易。",
+      "buyTitle": "先佔後買(Own Now Buy Later)",
+      "buyBody": "看中了的寶貝先搶下代表實物商品所有權的NFT，日後再選擇購買。",
+      "collectTitle": "NFT的價值投資",
+      "collectBody": "虛無並不是NFT的範式，恰恰相反，每件NFT的價值應該是看得到的。",
+      "createTitle": "專業的鑑定和管理",
+      "createBody": "NFT代表的實物商品都由專業鑑定師進行鑑定並系統化地管理。",
+      "sellTitle": "自由的交易",
+      "sellBody": "您的所有權可自由出售、拍賣，貴重品投資變得易如反掌。"
+    }
+  },
+  "productDetail": {
+    "smallDialog": "下架成功",
+    "owner": "擁有者",
+    "price": {
+      "buy": "購買",
+      "bid": "出價",
+      "deal": "成交",
+      "cancelBid": "取消出價",
+      "OffShelf": "下架",
+      "issue": "發放",
+      "destroy": "銷燬",
+      "sell": "售賣",
+      "bidding": "競價",
+      "price": "價格",
+      "newPrice": "最新價",
+      "youPrice": "你的出價"
+    },
+    "auctionCard": {
+      "startPrice": "起拍價",
+      "remainingDate": "剩餘時間"
+    },
+    "sellDialog": {
+      "title": "確認信息",
+      "balance": "你的餘額",
+      "formalities": "手續費",
+      "willPay": "你將付",
+      "text": "點擊確認即表示我同意",
+      "textService": "Beestyle服務條款",
+      "lowBalance": "您的餘額不足",
+      "lowHighestPrice": "出價需高於當前最高價格",
+      "recharge": "去充值"
+    },
+    "biddingDialog": {
+      "title": "競價詳情",
+      "currentPrice": "當前價格",
+      "ownPrice": "你的競拍價",
+      "bidddingPlaceholder": "請輸入你的競價",
+      "bidingRules": "必須高於當前價格",
+      "youPlaceholdor": "請輸入出價"
+    },
+    "cancelBid": {
+      "confirmCancelBid": "取消出價確認",
+      "text": "一旦取消，其他用戶將無法查看併發起交易，你確認要取消嗎?",
+      "closeCancelBid": "取消出價成功"
+    },
+    "offerDialog": {
+      "title": "競價詳情",
+      "startOffer": "起拍價",
+      "offerFee": "成交手續費",
+      "freezePrice": "將凍結資金"
+    },
+    "bargainDialog": {
+      "title": "議價詳情",
+      "startOffer": "起拍價",
+      "offerFee": "成交手續費",
+      "freezePrice": "將凍結資金"
+    },
+    "passwordDialog": {
+      "passwordValidation": "密碼驗證",
+      "verifyIdentidy": "驗證您的身份，保證財產安全"
+    },
+    "makeDeal": {
+      "title": "成交確認",
+      "text": "選擇的成交價",
+      "errorText": "不能與自己交易"
+    },
+    "destoryDialog": {
+      "confirmDestory": "銷燬確認",
+      "text": "一旦銷燬，該NFT將不存在，所有的信息也將被清除並無法恢復，確定要銷燬嗎？",
+      "closeDestory": "銷燬成功"
+    },
+    "offShelf": {
+      "confirmOffShelf": "下架確認",
+      "text": "一旦下架，其他用戶將無法購買該NFT，你確認要下架嗎?",
+      "closeOffShelf": "取消成功"
+    },
+    "buyDialog": {
+      "titleBuy": "購買成功",
+      "titleOffer": "出價成功",
+      "titleBid": "競價成功",
+      "titleTrade": "交易成功",
+      "textBuy": "您可以至個人中心查看詳情",
+      "textOffer": "您可以至個人中心查看詳情",
+      "textBid": "您可以至個人中心查看詳情",
+      "textTrade": "你可以至個人賬戶餘額查看"
+    },
+    "tabItem": {
+      "info": "詳情",
+      "history": "歷史",
+      "bid": "競價",
+      "offer": "出價",
+      "detail": "細節"
+    },
+    "history": {
+      "you": "由",
+      "create": "創建",
+      "deliver": "發放",
+      "onSale": "出售",
+      "cancelSale": "下架",
+      "makeOffer": "出價",
+      "bid": "競價",
+      "bought": "購買",
+      "redeem": "贖回",
+      "destory": "銷燬",
+      "cancelOffer": "取消議價",
+      "transferOut": "轉出"
+    }
+  },
+  "listed": {
+    "title": "選擇出售方式",
+    "confirmBtn": "確認出售",
+    "confirmAuction": "確認發佈競拍",
+    "remind": "發佈成功",
+    "selectCoin": "選擇幣種",
+    "coin": "幣種",
+    "btn": {
+      "onePrice": "直購價出售",
+      "onePriceText": "以固定價格的方式出售",
+      "auction": "競標出售",
+      "auctionText": "出售給出價最高的人"
+    },
+    "onePriceSelect": {
+      "setPrice": "設定價格",
+      "setPricePlaceholder": "請輸入想要出售的價格",
+      "title": "將一直出售，直到該NFT過期或您下架它",
+      "maturity": "到期時間",
+      "errorMaturity": "過期將自動下架",
+      "expireDate": "到期時間：",
+      "errorText": "過期將自動下架"
+    },
+    "auction": {
+      "start": "設定起拍價",
+      "startPricePlaceholder": "請輸入想要的起拍價格",
+      "startText": "競拍中將按照該起拍價進行每次出價的遞增標準",
+      "end": "設定截止時間",
+      "endPlaceholder": "請選擇想要競拍的截止時間",
+      "endText": "我們支持的最低競拍時間為24小時，請保證您的NFT到期時間大於或等於24小時",
+      "endDate": "該NFT到期時間",
+      "expiration": "競標截止時間：",
+      "startAuction": "起拍價",
+      "errorAccount": "該信息一旦發佈，將不可修改和下架",
+      "auctionText": "點擊確認即表示我同意Beestyle服務條款"
+    },
+    "sellSuccess": {
+      "title": "上架成功",
+      "continueSell": "繼續出售",
+      "lookDetail": "查看詳情",
+      "continueBuy": "繼續購買"
+    }
+  },
+  "persetting": {
+    "createNft": "創建NFT",
+    "ownTitle": "已擁有",
+    "historyTitle": "歷史",
+    "tab": {
+      "redemption": "申請實物認領",
+      "transferOut": "轉出"
+    },
+    "redemption": {
+      "title": "實物認領申請詳情",
+      "strikePrice": "行權價",
+      "text": "申請贖回必須先將該NFT轉給託管機構，請先確認已跟金庫協商一致。且該行為不可撤銷，確認要申請贖回嗎？",
+      "titleSuccess": "申請成功",
+      "textSuucess": "你的NFT已經成功轉移到託管機構："
+    },
+    "transferOut": {
+      "title": "轉出詳情",
+      "transferUser": "轉出方：",
+      "receiveAddress": "接收地址",
+      "available": "可用餘額",
+      "titleSuccess": "轉出已成功提交",
+      "errorAddress": "請輸入正確的收款地址"
+    },
+    "own": {
+      "all": "全部",
+      "onSale": "出售中",
+      "notSold": "未出售",
+      "expire": "已過期",
+      "hasSend": "已發放",
+      "hold": "未發放",
+      "get": "已回收",
+      "destroy": "銷燬",
+      "offer": "我的出價",
+      "bid": "我的競價"
+    },
+    "history": {
+      "event": "事件",
+      "project": "NFT名稱",
+      "price": "價格",
+      "number": "數量",
+      "from": "發送用戶",
+      "to": "接收用戶",
+      "date": "時間",
+      "errorExpired": "該NFT已過期，無法查看",
+      "errorDestory": "該NFT已銷燬，無法查看",
+      "eventItem": {
+        "create": "創建",
+        "deliver": "發放",
+        "onSale": "售出",
+        "cancelSale": "下架",
+        "makeOffer": "出價",
+        "bid": "競價",
+        "bought": "購買",
+        "redeem": "贖回",
+        "destroy": "銷燬",
+        "cancelOffer": "取消議價",
+        "withdraw": "轉出"
+      }
+    }
+  },
+  "recharge": {
+    "title": "從你的交易所存入{0}",
+    "text": "充值{0}到以下地址或掃描二維碼充值",
+    "btn": "我已經充值"
+  },
+  "drawer": {
+    "account": "我的賬戶",
+    "text": "您還未登錄賬戶，請返回登錄",
+    "detail": "記錄",
+    "balance": "賬戶餘額",
+    "recharge": "充值",
+    "withdraw": "提現"
+  },
+  "withdraw": {
+    "title": "輸入目標錢包地址",
+    "errorText": "填寫不正確可能導致資產丟失，請仔細核對!",
+    "address": "輸入提現地址",
+    "errorAddress": "無效地址",
+    "price": "請輸入提款金額",
+    "errorPrice": "超出餘額總數",
+    "canPrice": "賬戶餘額:",
+    "total": "全部",
+    "confirmPrice": "確認提現",
+    "errorRecharge": "提現已放棄"
+  },
+  "confrimWithraw": {
+    "title": "交易詳情",
+    "text": "確認您的提現信息是否準確",
+    "count": "數量",
+    "fee": "手續費",
+    "username": "支付賬戶",
+    "address": "接收地址"
+  },
+  "confirmPassword": {
+    "title": "密碼驗證",
+    "text": "驗證您的身份，保證財產安全",
+    "password": "請輸入賬戶密碼",
+    "errorPassword": "密碼錯誤，請重新輸入",
+    "errorbuy": "購買已放棄",
+    "success": "你的提現信息已提交"
+  },
+  "transaction": {
+    "title": "充值提現記錄",
+    "account": "賬戶",
+    "text": "暫無任何記錄",
+    "recharge": "充值",
+    "withdraw": "提現",
+    "enterPrice": "轉入金額",
+    "outPrice": "轉出金額",
+    "date": "時間",
+    "enterAddress": "轉入地址",
+    "outAddress": "提現地址",
+    "status": "狀態",
+    "finishStatus": "已完成",
+    "successStatus": "成功",
+    "failedStatus": "失敗"
+  },
+  "showCase": {
+    "currentPrice": "當前出價",
+    "price": "價格",
+    "creator": "創建人",
+    "user": "持有人",
+    "expired": "已過期"
+  },
+  "account": {
+    "accountSet": "賬號設置",
+    "languageSet": "語言設置",
+    "username": "用戶名",
+    "selfIntroduction": "個人介紹",
+    "emailAddress": "郵箱地址",
+    "save": "保存"
+  },
+  "trade": {
+    "depositWithdrawal": "充提記錄",
+    "accountChange": "賬變記錄",
+    "order": "訂單記錄",
+    "orderNumber": "訂單號",
+    "coinType": "幣種",
+    "amount": "金額",
+    "balance": "餘額",
+    "type": "類型",
+    "useType": "用途",
+    "address": "地址",
+    "peopleType": "買/賣家",
+    "date": "時間",
+    "state": "狀態",
+    "stateType": {
+      "1": "進行中",
+      "2": "成功",
+      "3": "失敗"
+    },
+    "recordType": {
+      "transferIn": "轉入",
+      "transferOut": "轉出",
+      "transferOutReturn": "轉出退款",
+      "transferOutFee": "提幣手續費",
+      "transferOutFeeReturn": "提幣手續費退還",
+      "NFTSold": "NFT出售",
+      "NFTBought": "NFT購買",
+      "NFTFee": "NFT手續費",
+      "NFTBid": "NFT競價",
+      "NFTOffer": "NFT議價",
+      "NFTBidReturn": "NFT競價費退還",
+      "NFTFeeReturn": "NFT手續費退還",
+      "NFTOfferReturn": "NFT議價費退還",
+      "MintGasFee": "NFT創建手續費",
+      "MintGasFeeReturn": "NFT創建手續費退還",
+      "TransferGasFee": "NFT轉出手續費",
+      "TransferGasFeeReturn": "NFT轉出手續費退還",
+      "BurnGasFee": "NFT銷燬手續費",
+      "BurnGasFeeReturn": "NFT銷燬手續費退還"
+    },
+    "billType": {
+      "buy": "NFT購買",
+      "sell": "NFT出售"
+    }
+  },
+  "about": {
+    "text": "Beestyle平臺的Luxury Arichive系列是由專業託管機構保管實物資產並映射該實物資產的所有權鑄造的NFT， 供用戶安全的保管和高效的交易。",
+    "btn": "探索",
+    "professional": {
+      "title": "值得信賴的專業性",
+      "text": "Luxury Archive的金庫由(株)高奢貸付公司負責運營。(株)高奢貸付是具19年曆史的韓國最大奢侈品交易平臺 (株)飛威的子公司，管理著超過800件貴重品，每件都通過經驗豐富的專業奢侈品鑑定師團隊精密的鑑定真偽 及市場估值，並以此向銀行、典當行、個人提供託管和典當服務的典當銀行(Pawn Bank)。"
+    },
+    "safe": {
+      "title": "實物貴重品的安全保管",
+      "text1": "客戶的貴重品保管在設有多重認證訪問系統的安全金庫。具有訪問權限的管理員通過生物識別等認證程序方可進出金庫，訪問金庫的具體時間和操作記錄與專業安保公司聯動實現實時監控。",
+      "text2": "金庫中保管的貴重品均配有唯一識別編碼，可迅速準確地確認物品的詳細信息和存放位置。",
+      "text3": "金庫以安全保管客戶貴重品為最高使命，將通過不懈努力和創新精神，安全透明地保管客戶資產。"
+    },
+    "method": {
+      "title": "Luxury Archive NFT的使用方法",
+      "text1": "實物貴重品存入金庫的同時會給實物所有權者發行Luxury Archive NFT，所有權者可在Beestyle平臺與第三方交易該NFT，買入NFT的持有者則成為該實物的所有權者。",
+      "text2": "Luxury Archive NFT是託管機構(金庫)識別所保管的該貴重品所有權的唯一憑證，NFT持有者可隨時訪問保管實物的託管機構，向託管機構繳付NFT中標示的行權金額後可贖回實物貴重品。"
+    }
+  },
+  "errorCode": {
+    "10001": "無效用戶",
+    "10002": "金額為負",
+    "10003": "金額不足",
+    "10004": "用戶名或密碼錯誤",
+    "10005": "用戶已存在",
+    "10006": "權限錯誤",
+    "10007": "密碼錯誤",
+    "10008": "無效操作",
+    "10009": "操作失敗",
+    "10010": "用戶不存在",
+    "10011": "郵箱已註冊",
+    "10101": "驗證碼過期",
+    "10102": "驗證碼錯誤",
+    "10103": "模板錯誤",
+    "11000": "不可售賣狀態",
+    "11001": "不可轉移狀態",
+    "11002": "不可取消狀態",
+    "11003": "不可購買狀態",
+    "11004": "結束時間錯誤",
+    "11005": "NFT即將到期",
+    "11006": "支付方式錯誤",
+    "11007": "支付金額錯誤",
+    "11008": "重複出價",
+    "11009": "無效出價",
+    "11010": "無法成交",
+    "11011": "不可提現狀態",
+    "12001": "不能購買自己的NFT",
+    "20001": "方法不可用",
+    "20002": "地址創建失敗",
+    "20003": "向區塊鏈服務商請求失敗",
+    "20004": "地址無效",
+    "20005": "獲取eth gas price失敗",
+    "20006": "數據庫插入的地址與已有地址衝突",
+    "20007": "數據庫插入的memo與已有memo衝突",
+    "20008": "服務商問題",
+    "20009": "幣種無效",
+    "30001": "交易無效"
+  },
+  "systemErr": "系統錯誤",
+  "unknownErr": "未知錯誤",
+
+
+
+
+
+  "navbar": {
+    "searchPlaceholder": "搜尋您想要購買的NFT ...",
+    "mobileNavLinkTitle": "選單",
+    "mobileLoginRegister": "登入/註冊",
+    "mobileWallet": "錢包",
+    "mobileMyAccount": "我的帳號",
+    "mobileSignOut": "登出",
+    "navLink1": "交易市場",
+    "navLink2": "宗教藝術",
+    "navLink3": "街頭藝術",
+    "navLink4": "GAME-FI",
+    "navLink5": "什麼是NFT",
+    "navLink6": "精選活動",
+    "navLink7": "創造NFT",
+    "accountDropdown": {
+      "dropdownItem1": "個人中心",
+      "dropdownItem2": "歷史紀錄",
+      "dropdownItem3": "登出"
+    },
+    "walletSideDrawer": {
+      "myAccount": "我的帳號",
+      "record": "紀錄",
+      "accountBalance": "帳戶餘額",
+      "recharge": "充值",
+      "deposit": "提現",
+      "notSignInHint": "您還未登入帳號，請先登入",
+      "depositNFT": "導入NFT"
+    },
+    "signInDialog": {
+      "title": "歡迎回來",
+      "userName": "使用者名稱",
+      "password": "密碼",
+      "forgotPassword": "忘記密碼",
+      "signIn": "登入",
+      "registerSuggestion": "還沒有帳號嗎?",
+      "register": "註冊",
+      "character": "碼"
+    },
+    "registerDialog": {
+      "title": "建立一個帳號",
+      "userName": "使用者名稱",
+      "email": "信箱",
+      "password": "密碼",
+      "confirmPassword": "確認密碼",
+      "agreement": "建立帳號視同您同意我們的",
+      "terms": "服務條款",
+      "createAccount": "建立帳號",
+      "createSucceed": "成功建立帳號",
+      "signInSuggestion": "已有帳號?",
+      "signIn": "登入",
+      "character": "碼",
+      "passwordsNotMatch": "兩組密碼不一致",
+      "invalidEmailHint": "無效的信箱",
+      "accountType": "帳號類型",
+      "person": "個人",
+      "company": "企業"
+    },
+    "resetPasswordDialog": {
+      "title": "重置密碼",
+      "email": "信箱",
+      "verificationCode": "驗證碼",
+      "sendCode": "發送驗證碼",
+      "newPassword": "新密碼",
+      "confirmNewPassword": "確認新密碼",
+      "resetPassword": "重置密碼",
+      "signInSuggestion": "已有帳號?",
+      "signIn": "登入",
+      "lessThan": "小於",
+      "character": "碼",
+      "passwordsNotMatch": "兩組密碼不一致",
+      "verificationCodeSent": "已送出驗證碼",
+      "resetSucceed": "密碼修改成功",
+      "invalidEmailHint": "無效的信箱"
+    }
+  },
+  "footer": {
+    "links": {
+      "explore": {
+        "title": "交易市場",
+        "link1": "所有商品",
+        "link2": "宗教藝術",
+        "link3": "街頭藝術",
+        "link4": "GAME-FI"
+      },
+      "aboutNFT": {
+        "title": "什麼是NFT",
+        "link1": "NFT介紹",
+        "link2": "說明中心"
+      },
+      "activities": {
+        "title": "精選活動",
+        "link1": "獨家活動",
+        "link2": "最新活動"
+      }
+    }
+  },
+  "home": {
+    "famousArtist": {
+      "sectionTitle": "知名藝術家"
+    },
+    "albums": {
+      "sectionTitle": "精選專輯",
+      "album": {
+        "amount": "個作品"
+      }
+    },
+    "activities": {
+      "sectionTitle": "特選活動",
+      "showMore": "展示更多"
+    },
+    "selects": {
+      "sectionTitle": "精選作品",
+      "select": {
+        "reservationPrice": "底價",
+        "alreadyCopyToClipboard": "已成功複製連結"
+      },
+      "showMore": "展示更多"
+    },
+    "storyBanner": {},
+    "intro": {
+      "sectionTitle": "什麼是 <span class='primary--text' style='font-size: 1em;'>BEESTYLE</span>?",
+      "block1": {
+        "blockTitle": "快速創造您的第一個NFT作品",
+        "blockDescription": "<span class='primary--text' style='font-size: 1em;'>BEESTYLE</span>是一個專注於文創以及獨立藝術家的NFT平台，讓您用最簡單易操作的方式加入區塊鏈的世界"
+      },
+      "block2": {
+        "blockTitle": "您的作品永遠屬於您",
+        "blockDescription": "透過區塊鏈技術將您的創作附加獨一無二的數位印記"
+      },
+      "block3": {
+        "blockTitle": "BEESTYLE是您的線上藝廊",
+        "blockDescription": "不只是數位創作，在<span class='primary--text' style='font-size: 1em;'>BEESTYLE</span>上您也能購買實體藝術品，每樣藝術品均附上區塊鏈上的產權證明"
+      },
+      "block4": {
+        "blockTitle": "無國界銷售",
+        "blockDescription": "透過<span class='primary--text' style='font-size: 1em;'>BEESTYLE</span>與NFT技術，您能將您的創作銷售至全球市場"
+      }
+    },
+    "explore": {
+      "startExplore": "開始<span style='color: #ffffff; font-size: 1em;'>探索</span>",
+      "inputPlaceholder": "探索您想要的內容...",
+      "submit": "提交"
+    }
+  },
+  "explore": {
+    "filter": {
+      "filterTitle": "過濾器列表",
+      "sellWay": "出售方式",
+      "sellWayText": {
+        "onAuction": "競標",
+        "buyNow": "直購"
+      },
+      "sellCoin": "交易幣種",
+      "priceRange": "金額範圍",
+      "minPrice": "最小",
+      "maxPrice": "最大",
+      "cate1": "宗教藝術",
+      "cate2": "街頭藝術",
+      "cate3": "GAME-FI",
+      "priceInvalidError": "最小值必須小於最大值",
+      "submit": "確定",
+      "clear": "清除",
+      "results": "NFT結果<span class='primary--text' style='font-size: 1em;'>{amount}</span>件"
+    },
+    "ordering": {
+      "priceOrdering": "價格排序",
+      "fromLowToHigh": "從低到高",
+      "fromHighToLow": "從高到低",
+      "timeOrdering": "時間排序",
+      "fromOldToNew": "從舊到新",
+      "fromNewToOld": "從新到舊"
+    }
+  },
+  "user": {
+    "ownedNfts": "已擁有的NFT",
+    "NftRecords": "NFT歷史紀錄",
+    "accountRecords": "帳號歷史紀錄",
+    "isOnSale": "已上架",
+    "notOnSale": "未上架",
+    "expired": "已過期",
+    "destroyed": "已銷毀",
+    "offer": "我的競價",
+    "bargain": "我的議價",
+    "favorite": "收藏中",
+    "transferRecords": "充提記錄",
+    "propertyChangeRecords": "帳變紀錄",
+    "orderRecords": "訂單紀錄",
+    "all": "全部",
+    "myOffer": "我的出價",
+    "myBid": "我的競價",
+    "profileEditDialog": {
+      "userAvatar": "使用者頭像",
+      "userCover": "使用者封面圖",
+      "userNickname": "使用者暱稱",
+      "userNicknameLabel": "請輸入暱稱",
+      "userNicknameRules": {
+        "required": "必填",
+        "maximum": "暱稱最多{0}字"
+      },
+      "userDescription": "使用者簡介",
+      "userDescriptionLabel": "請輸入簡介",
+      "submit": "確認修改",
+      "updateSucceed": "已更新您的個人資料"
+    }
+  },
+  "nftCard": {
+    "expireDate": "到期時間",
+    "notOnSale": "未上架",
+    "d": "天",
+    "h": "時",
+    "m": "分",
+    "s": "秒"
+  },
+  "nft": {
+    "backToPreviousPage": "回到上一頁",
+    "price": "價格",
+    "highestPrice": "最高價格",
+    "startingPrice": "起標價格",
+    "cate1": "宗教藝術",
+    "cate2": "街頭藝術",
+    "cate3": "GAME-FI",
+    "creator": "創作者",
+    "owner": "擁有者",
+    "expirationDate": "到期日",
+    "share": "分享連結",
+    "alreadyCopyToClipboard": "已成功複製連結",
+    "buy": "直購",
+    "sell": "出售",
+    "offer": "競價",
+    "bargain": "議價",
+    "cancelBargain": "取消議價",
+    "bargainHint": "您有{0}個議價要求",
+    "clickToLook": "點擊此處查看",
+    "list": "上架",
+    "notList": "尚未上架",
+    "offShelf": "下架",
+    "makeDeal": "成交",
+    "introduction": "簡介",
+    "tabs": {
+      "description": "詳情",
+      "price": "行情",
+      "offers": "競價",
+      "bargains": "議價",
+      "history": "歷史",
+      "details": "細節"
+    },
+    "bargainDialog": {
+      "title": "您有{0}個議價要求",
+      "description": "您可以選擇一個議價直接成交",
+      "alert": "點選成交之後即結算，請確認之後再點選"
+    },
+    "cancelBargainDialog": {
+      "title": "取消議價確認",
+      "description": "一旦取消，你的議價將會被移除，確認要取消嗎?",
+      "cancelSuccess": "取消議價成功"
+    },
+    "confirmMakeDeal": {
+      "title": "成交確認",
+      "description": "一旦成交，你的NFT將會被移轉給他人，確認要成交嗎？"
+    },
+    "withdrawNFT": {
+      "withdraw": "轉出",
+      "title": "轉出詳情",
+      "transferUser": "轉出方：",
+      "receiveAddress": "接收地址",
+      "available": "可用餘額",
+      "titleSuccess": "轉出已成功提交",
+      "errorAddress": "請輸入正確的NFT接收地址",
+      "text": "請輸入Beestyle用戶郵箱或BSC錢包地址"
+    }
+  }
+}

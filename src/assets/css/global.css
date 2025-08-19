@@ -1,0 +1,96 @@
+html,
+#app,
+body{
+}
+
+* {
+
+}
+
+.ETHColor {
+    color: rgba(153, 153, 153, 1);
+}
+
+.owner {
+    color: rgba(149, 149, 149, 1);
+}
+
+.withdraw {
+    background-color: rgba(33, 33, 33, 1) !important;
+}
+
+.errorColor {
+    color: #e02020;
+}
+
+.errorText {
+    color: #B71C1C;
+}
+
+
+.borderRadius {
+    border-radius: 4px;
+}
+
+.hintText {
+    color: rgba(244, 244, 244, 1);
+}
+
+.btnColor {
+    background: linear-gradient(360deg, #E4A100 0%, #FDD20D 55%, #FFE362 100%) !important;
+    color: #261300 !important;
+    font-size: 16px !important;
+    font-weight: bold !important;
+    box-shadow: 0px 1px 18px 0px rgba(0, 0, 0, 0.12), 0px 6px 10px 0px rgba(0, 0, 0, 0.14), 0px 3px 5px -1px rgba(0, 0, 0, 0.2) !important;
+}
+
+.theme--dark.v-btn.v-btn--disabled {
+    background: linear-gradient(180deg, #706E6E 0%, #4C4C4C 52%, #383838 100%) !important;
+    box-shadow: 0px 1px 18px 0px rgba(0, 0, 0, 0.08), 0px 6px 10px 0px rgba(0, 0, 0, 0.1), 0px 3px 5px -1px rgba(0, 0, 0, 0.15);
+    color: rgba(149, 149, 149, 1) !important;
+}
+
+.createdNFT {
+    color: rgba(204, 204, 204, 1);
+}
+
+.tranfserNFT {
+    color: rgba(204, 204, 204, 1);
+}
+
+.tranfserNFTPlaceholder {
+    color: rgba(102, 102, 102, 1);
+}
+
+.list::-webkit-scrollbar {
+    display: none;
+}
+
+.cancelBorderColor {
+    border: 1px solid rgba(255, 193, 7, 1);
+}
+
+.tabRow:nth-child(even) {
+    background-color: rgba(66, 66, 66, 0.24);
+}
+
+.description {
+    word-break: normal;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 185px;
+    height: 17px;
+    font-size: 16px;
+    font-family: Arial-BoldMT, Arial;
+    font-weight: normal;
+    line-height: 18px;
+}
+
+.close {
+    z-index: 999999;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

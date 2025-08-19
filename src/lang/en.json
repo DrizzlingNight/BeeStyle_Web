@@ -1,0 +1,883 @@
+{
+  "language": "English",
+  "confirmBtn": "confirm",
+  "cancelBtn": "Cancel",
+  "defaultNone": "No content",
+  "networkErr": "Oops, the network is wrong.",
+  "getNothing": "Sorry ~ No search",
+  "errorPassword": "wrong password",
+  "copySuccess": "Copy success",
+  "owner": "owner:",
+  "errorClose": "Operation has given up",
+  "tip": {
+    "sendSuccess": "Completed",
+    "sendFailed": "Setting Failed",
+    "bindSuccess": "Connected",
+    "bindFailed": "Failed",
+    "setSuccess": "Success",
+    "setFailed": "Failed",
+    "modifySuccess": "Modified",
+    "modifyFailed": "Failed",
+    "incorrectPassword": "Invalid password",
+    "addSuccess": "Added Success",
+    "addFailed": "Added Failed",
+    "copySuccess": "Copy Success",
+    "copyFailed": "Copy Failed",
+    "withdrawSuccess": "Withdraw Success",
+    "withdrawFailed": "Withdraw Failed",
+    "uploadSuccess": "Upload Success",
+    "uploadFailed": "Upload Failed",
+    "loginToSeeUser": "Please login to view profile"
+  },
+  "navibar": {
+    "login": "login",
+    "marketplace": "Marketplace",
+    "wallet": "wallet",
+    "logout": "Sign out",
+    "account": "Personal center",
+    "history": "history record",
+    "logOut": "Sign out"
+  },
+  "loginAndResister": {
+    "email": "Mail",
+    "password": "password",
+    "login": "login",
+    "create": "create",
+    "code": "Verification code"
+  },
+  "login": {
+    "noAccount": "Have you n't had an account?",
+    "register": "register",
+    "title": "Welcome back to Beestyle",
+    "noPassword": "forget the password"
+  },
+  "register": {
+    "haveAccount": "Have an account",
+    "title": "Create an account",
+    "username": "username",
+    "againAccount": "Confirm Password",
+    "text": "Creating an account means you accept our",
+    "textService": "Terms of Service",
+    "createAccount": "Create a user",
+    "errorEmail": "Invalid mailbox",
+    "errorUsername": "Illegal characters have been used",
+    "errorPassword": "The password should be at least 8 characters, and at least one special character, uppercase letters, lowercase letters and a number",
+    "errorAgainPassword": "Two passwords are inconsistent",
+    "success": "registration success",
+    "successText": "Your account has been registered successfully, please go to login",
+    "failed": "registration failed",
+    "failedText": "Sorry, registration failed",
+    "failedBtn": "Return to login"
+  },
+  "detailTab": {
+    "address": "Contract address",
+    "id": "Wallet address",
+    "blockchain": "Block chain"
+  },
+  "resetPassword": {
+    "title": "reset Password",
+    "btn": "Confirm Password",
+    "countinue": "continue",
+    "verificationCode": "Verification code",
+    "newPassword": "New password",
+    "confirmPassword": "Confirm new password",
+    "sendVerificationCode": "Send the verification code",
+    "getMail": "I have received mail",
+    "resendMail": "Resend email",
+    "setPasswordSuccess": "Password reset complete"
+  },
+  "transferNFT": {
+    "title": "Transfer",
+    "inputEmail": "please input your email",
+    "errorEmail": "This mailbox is invalid",
+    "successTransfer": "Transfer success",
+    "successText": "Your NFT has been successfully transferred to",
+    "errorTransfer": "Transfer failure",
+    "errorText1": "User does not exist",
+    "errorText2": "Can't go to yourself!",
+    "continueTransfer": "Continue to create",
+    "backTransfer": "Re-transfer",
+    "importNFT": "Import NFT",
+    "walletAddress": "Wallet address",
+    "contractAddress": "Contract address",
+    "selectYourNFT": "Choose your NFT",
+    "addressMatch": "Add to",
+    "selectToken": "Please select a token ID.",
+    "confirmImport": "Confirm import",
+    "selectNFTNetwork": "Select NFT network",
+    "onlySupportBSCETH": "Currently only support BSC and ETH networks",
+    "confirm": "confirm",
+    "binance": "Currency smart chain",
+    "linkToWallet": "Link wallet",
+    "linkAgreement": "Link wallet, you agree to Beestyle",
+    "linkTerms": "Terms of Service",
+    "readAndConfirmTerms": "And confirm that you have read and understand Beestyle",
+    "statement": "Agreement Disclaimer",
+    "confirmWithdraw": "Confirm withdrawal",
+    "sureWithdraw": "Do you determine this NFT?",
+    "need24h": "Treatment time may take 24 hours.",
+    "nftName": "NFT name",
+    "tokenId": "Token ID",
+    "targetWalletAddress": "Target wallet address",
+    "cancel": "Cancel",
+    "targetWalletAddressPlaceholder": "Please enter the target wallet address",
+    "externalTransferOut": "NFT exterior",
+    "network": "The internet"
+  },
+  "createNFT": {
+    "title": "Create a project",
+    "upload": "Click here to upload",
+    "setCover": "Click to set it to cover",
+    "imgText": "image",
+    "text": "Supported file types: JPG, PNG, GIF. Maximum size: 100 MB. Please use the aspect ratio of 1: 1.",
+    "itemName": "title",
+    "namePlaceholder": "Please enter the project name",
+    "serialNo": "serial number",
+    "noPlaceholder": "Enter the serial number",
+    "liabillties": "Undertake",
+    "expiration": "maturity",
+    "rate": "Annual rate",
+    "description": "describe",
+    "desPlaceholder": "Input description",
+    "category": "category",
+    "cate1": "Religious Art",
+    "cate2": "Street art",
+    "cate3": "GAME-FI",
+    "rating": "score",
+    "ratingPlaceholder": "Enter verification",
+    "authentication": "Identification",
+    "authentPlaceholder": "Input identification",
+    "archiveName": "Manufacturing agency name",
+    "archiveNamePlaceholder": "Enter a managed institution name",
+    "archiveAddress": "Household address",
+    "archiveAddressPlaceholder": "Enter a managed institution address",
+    "btn": "create",
+    "textRule": "Required",
+    "textRules": "Up to 50 characters",
+    "addressRules": "Up to 100 characters",
+    "textareaRules": "Up to 200 characters",
+    "inputRules": "Input errors, please re-enter",
+    "successNFT": "Create success",
+    "principal": "Loan",
+    "sore": "grade",
+    "achiveNameInfo": "Custodian Name",
+    "fee": "Fee",
+    "feeText": "Creating NFT will charge a certain fee, please pay",
+    "balance": "Your balance",
+    "keyword": "Keyword",
+    "keywordDescription": "Please enter a comma after each keyword",
+    "coin": "Currency",
+    "selectCoin": "Select a currency"
+  },
+  "marketPlace": {
+    "list": "Filter list",
+    "priceOrder": "Price sorting",
+    "priceOrderH2L": "From high to low",
+    "priceOrderL2H": "From low to high",
+    "timeOrder": "Time sort",
+    "timeOrderN2O": "From new to the old",
+    "timeOrderO2N": "From the old to new",
+    "price": {
+      "price": "price",
+      "min": "Minimum",
+      "max": "maximum",
+      "apply": "application",
+      "priceErr": "The minimum value must be smaller than the maximum"
+    },
+    "status": {
+      "status": "state",
+      "onAuction": "auction",
+      "buyNow": "A price"
+    },
+    "result": "result"
+  },
+  "homepage": {
+    "homeInfo": {
+      "title": "Hold Your Valuables with Luxury Archive NFT",
+      "subtitle": "Deposit Safely, Trade Freely",
+      "button": "Learn More"
+    },
+    "hot": {
+      "text": "Popular",
+      "offerer": "Offerer",
+      "highestPrice": "Highest price",
+      "remaining": "Time left",
+      "makeOffer": "Make Offer",
+      "price": "price"
+    },
+    "new": {
+      "text": "up to date",
+      "loadBtn": "load more",
+      "loadBtnDisable": "No more content"
+    },
+    "selfAction": {
+      "title": "Link the virtuality to reality,trade more freely than physically.",
+      "buyTitle": "ONBL(Own Now Buy Later)",
+      "buyBody": "Own it when you will, buy it when you are happy.",
+      "collectTitle": "Value Investment in NFT",
+      "collectBody": "NFT doesn't stand for nothingness, as a matter of fact, it shall be represnting the true value.",
+      "createTitle": "Professional Appraisal and Management",
+      "createBody": "The physical merchandise represented by the NFT is under good care of professional appraiser and systematic management.",
+      "sellTitle": "Trade as will",
+      "sellBody": "You can trade freely by auction, fixed price. No more difficult on trading valuables."
+    }
+  },
+  "productDetail": {
+    "smallDialog": "Successful",
+    "owner": "owner",
+    "price": {
+      "buy": "Buy",
+      "bid": "Bid",
+      "deal": "make a deal",
+      "cancelBid": "Cancel the price",
+      "OffShelf": "Rack",
+      "issue": "Issue",
+      "destroy": "destroy",
+      "sell": "sell",
+      "bidding": "Bidding",
+      "price": "price",
+      "newPrice": "Latest price",
+      "youPrice": "Your bid"
+    },
+    "auctionCard": {
+      "startPrice": "Starting price",
+      "remainingDate": "Time left"
+    },
+    "sellDialog": {
+      "title": "Confirmation",
+      "balance": "Your balance",
+      "formalities": "Fee",
+      "willPay": "You will pay",
+      "text": "Confirm that the purchase will express my agreement",
+      "textService": "Beestyle Terms of Service",
+      "lowBalance": "Your balance is insufficient",
+      "lowHighestPrice": "The bid must be higher than the current maximum price",
+      "recharge": "Recharge"
+    },
+    "biddingDialog": {
+      "title": "Auction details",
+      "currentPrice": "Current price",
+      "ownPrice": "Your bidding price",
+      "bidddingPlaceholder": "Please enter your bidding",
+      "bidingRules": "Must be higher than the current price",
+      "youPlaceholdor": "Please enter a bid"
+    },
+    "cancelBid": {
+      "confirmCancelBid": "Cancel the bid confirmation",
+      "text": "Once canceled, other users will not be able to view and initiate transactions, do you confirm that you want to cancel?",
+      "closeCancelBid": "Cancellation"
+    },
+    "offerDialog": {
+      "title": "Offer details",
+      "startOffer": "Starting price",
+      "offerFee": "Transaction fee",
+      "freezePrice": "Will freeze funds"
+    },
+    "bargainDialog": {
+      "title": "Offer Details",
+      "startOffer": "Starting price",
+      "offerFee": "Transaction fee",
+      "freezePrice": "Funds will be frozen."
+    },
+    "passwordDialog": {
+      "passwordValidation": "Password validation",
+      "verifyIdentidy": "Verify your identity and ensure property safety"
+    },
+    "makeDeal": {
+      "title": "Transaction confirmation",
+      "text": "Selected transaction price",
+      "errorText": "Can't trade with yourself"
+    },
+    "destoryDialog": {
+      "confirmDestory": "Destruction confirmation",
+      "text": "Once destroyed, the NFT will not exist, all information will also be cleared and cannot be recovered, do you want to destroy?",
+      "closeDestory": "Destruction success"
+    },
+    "offShelf": {
+      "confirmOffShelf": "Randade confirmation",
+      "text": "Once the following, other users will not be able to purchase the NFT, do you confirm that you have to get off?",
+      "closeOffShelf": "Cancel success"
+    },
+    "buyDialog": {
+      "titleBuy": "Successful purchase",
+      "titleOffer": "Offer success",
+      "titleBid": "Bidding success",
+      "titleTrade": "Transaction success",
+      "textBuy": "You can view details from your home center.",
+      "textOffer": "You can view details from your home center.",
+      "textBid": "You can view details from your home center.",
+      "textTrade": "You can view the balance of your personal account"
+    },
+    "tabItem": {
+      "info": "Detail",
+      "history": "history",
+      "bid": "Bidding",
+      "offer": "bid",
+      "detail": "detail"
+    },
+    "history": {
+      "you": "Depend on",
+      "create": "create",
+      "deliver": "Discharge",
+      "onSale": "sell",
+      "cancelSale": "Rack",
+      "makeOffer": "Make offer",
+      "bid": "Bidding",
+      "bought": "Buy",
+      "redeem": "redemption",
+      "destory": "destroy",
+      "cancelOffer": "Cancel Offer",
+      "transferOut": "Transfer"
+    }
+  },
+  "listed": {
+    "title": "Choose a sale method",
+    "confirmBtn": "Confirm",
+    "confirmAuction": "Confirm that the bidding",
+    "remind": "Successful",
+    "selectCoin": "Select a currency",
+    "coin": "Currency",
+    "btn": {
+      "onePrice": "Sold a price",
+      "onePriceText": "Sold in a fixed price",
+      "auction": "Auction sale",
+      "auctionText": "Auction to the highest price"
+    },
+    "onePriceSelect": {
+      "setPrice": "Set price",
+      "setPricePlaceholder": "Please enter the price you want to sell",
+      "title": "Will sell it all the time until the NFT expires or you get off it",
+      "maturity": "Expire date",
+      "errorMaturity": "Expired will automatically remove",
+      "expireDate": "Expire date:",
+      "errorText": "Expired will automatically remove"
+    },
+    "auction": {
+      "start": "Set the starting price",
+      "startPricePlaceholder": "Please enter the starting price you want",
+      "startText": "In the auction, the incremental standards per bid will be performed in accordance with the starting price.",
+      "end": "Set deadline",
+      "endPlaceholder": "Please select the deadline for the auction",
+      "endText": "The minimum auction time we support is 24 hours, please ensure that your NFT expires greater than or equal to 24 hours.",
+      "endDate": "This NFT expiration time",
+      "expiration": "Auction deadline:",
+      "startAuction": "Starting price",
+      "errorAccount": "Once this information is released, it will not be modified and removed.",
+      "auctionText": "Confirm that the purchase is, I agree to the Beestyle Terms of Service."
+    },
+    "sellSuccess": {
+      "title": "Successful",
+      "continueSell": "Continue to sell",
+      "lookDetail": "check the details",
+      "continueBuy": "Continue to buy"
+    }
+  },
+  "persetting": {
+    "createNft": "Create NFT",
+    "ownTitle": "Have",
+    "historyTitle": "history",
+    "tab": {
+      "redemption": "Application physical claim",
+      "transferOut": "Transfer"
+    },
+    "redemption": {
+      "title": "Subject claim details",
+      "strikePrice": "Undertake",
+      "text": "Applying for redemption must first turn the NFT to the managed mechanism, please confirm that it has consistent with the Trend. And this behavior is irrevocable, is it necessary to apply for redemption?",
+      "titleSuccess": "Application success",
+      "textSuucess": "Your NFT has been successfully transferred to the managed organization:"
+    },
+    "transferOut": {
+      "title": "Transfer out more",
+      "transferUser": "Transfer party:",
+      "receiveAddress": "receiving address",
+      "available": "Available Balance",
+      "titleSuccess": "Transfer to successfully submit",
+      "errorAddress": "Please enter the correct payment address"
+    },
+    "own": {
+      "all": "all",
+      "onSale": "Sell",
+      "notSold": "Not sold",
+      "expire": "expired",
+      "hasSend": "Have been issued",
+      "hold": "Not issued",
+      "get": "Recycle",
+      "destroy": "destroy",
+      "offer": "My Offer",
+      "bid": "My bidding"
+    },
+    "history": {
+      "event": "event",
+      "project": "NFT name",
+      "price": "price",
+      "number": "quantity",
+      "from": "Send a user",
+      "to": "Receive users",
+      "date": "time",
+      "errorExpired": "The NFT has expired and cannot be viewed.",
+      "errorDestory": "The NFT has been destroyed and cannot be viewed.",
+      "eventItem": {
+        "create": "create",
+        "deliver": "Discharge",
+        "onSale": "Sell",
+        "cancelSale": "Rack",
+        "makeOffer": "Make Offer",
+        "bid": "Bidding",
+        "bought": "Buy",
+        "redeem": "redemption",
+        "destroy": "destroy",
+        "cancelOffer": "Cancel the offer",
+        "withdraw": "Transfer"
+      }
+    }
+  },
+  "recharge": {
+    "title": "Deposit from your transaction",
+    "text": "Recharge ETH to the following address or scan QR code recharge",
+    "btn": "I have recharged"
+  },
+  "drawer": {
+    "account": "my account",
+    "text": "You have not logged in to your account, please return to login",
+    "detail": "record",
+    "balance": "Account Balance",
+    "recharge": "Recharge",
+    "withdraw": "withdraw"
+  },
+  "withdraw": {
+    "title": "Capcribard wallet address",
+    "errorText": "Fill in incorrectly caused assets loss, please check carefully!",
+    "address": "Enter the address address",
+    "errorAddress": "Invalid address",
+    "price": "Please enter the amount of cash",
+    "errorPrice": "Total number of balances",
+    "canPrice": "Account Balance:",
+    "total": "all",
+    "confirmPrice": "Confirm withdrawal",
+    "errorRecharge": "Withdrawing"
+  },
+  "confrimWithraw": {
+    "title": "Transaction Details",
+    "text": "Confirm that your cash information is accurate",
+    "count": "quantity",
+    "fee": "Fee",
+    "username": "Payment account",
+    "address": "receiving address"
+  },
+  "confirmPassword": {
+    "title": "Password validation",
+    "text": "Verify your identity and ensure property safety",
+    "password": "Please enter the account password",
+    "errorPassword": "Wrong password, please re-enter",
+    "errorbuy": "Purchase has given up",
+    "success": "Your cash information has been submitted"
+  },
+  "transaction": {
+    "title": "Recharge cash record",
+    "account": "Account",
+    "text": "No record",
+    "recharge": "Recharge",
+    "withdraw": "withdraw",
+    "enterPrice": "Transfer amount",
+    "outPrice": "Turnover",
+    "date": "time",
+    "enterAddress": "Transfer address",
+    "outAddress": "Add address",
+    "status": "state",
+    "finishStatus": "completed",
+    "successStatus": "success",
+    "failedStatus": "fail"
+  },
+  "showCase": {
+    "currentPrice": "Current price",
+    "price": "price",
+    "creator": "founder",
+    "user": "Holder",
+    "expired": "expired"
+  },
+  "account": {
+    "accountSet": "Account Settings",
+    "languageSet": "language settings",
+    "username": "username",
+    "selfIntroduction": "self introduction",
+    "emailAddress": "email address",
+    "save": "save"
+  },
+  "trade": {
+    "depositWithdrawal": "Military record",
+    "accountChange": "Account record",
+    "order": "Order record",
+    "orderNumber": "order number",
+    "coinType": "Currency",
+    "amount": "Amount",
+    "balance": "Balance",
+    "type": "type",
+    "useType": "use",
+    "address": "address",
+    "peopleType": "Buy / seller",
+    "date": "time",
+    "state": "state",
+    "stateType": {
+      "1": "in progress",
+      "2": "success",
+      "3": "fail"
+    },
+    "recordType": {
+      "transferIn": "Transfer",
+      "transferOut": "Transfer",
+      "transferOutReturn": "Reverse refund",
+      "transferOutFee": "Cinnamon fee",
+      "transferOutFeeReturn": "The currency fee is returned",
+      "NFTSold": "NFT sale",
+      "NFTBought": "NFT purchase",
+      "NFTFee": "NFT fee",
+      "NFTBid": "NFT bid",
+      "NFTOffer": "NFT offer",
+      "NFTBidReturn": "Refund bidding fee",
+      "NFTFeeReturn": "Refund commission fee",
+      "NFTOfferReturn": "Refund offer fee",
+      "MintGasFee": "NFT creation fee",
+      "MintGasFeeReturn": "NFT creation fee refund",
+      "TransferGasFee": "NFT transfer fee",
+      "TransferGasFeeReturn": "NFT transfer fee",
+      "BurnGasFee": "NFT destruction fee",
+      "BurnGasFeeReturn": "NFT destroyed handling fee"
+    },
+    "billType": {
+      "buy": "NFT purchase",
+      "sell": "NFT sale"
+    }
+  },
+  "about": {
+    "text": "The Luxury Archive Series of Beestyle platform is NFTs representing the ownership of physical property deposited in the professional custodian institution.",
+    "btn": "Explore",
+    "professional": {
+      "title": "Reliable Professionalism",
+      "text": "The safe of Luxury Archive is operated by Luxury Finance Inc., who is subsidiary of Korea biggest luxury commerce platform having 19 years’ experience in the industry. Every merchandise of the company is authenticated by professional appraisers. The company is a Pawn Bank providing custody and loan service to banks, pawnshops and individuals, based on the capability of authentication and evaluation."
+    },
+    "safe": {
+      "title": "Safe Custody of Physical Valuables",
+      "text1": "Physical valuables of customers are kept in the vault with multiple authentication system. Only the authorized person can access the vault via permission by the biometric access program. Every access record is linked with professional security company under real time monitoring.",
+      "text2": "Each valuables kept in the vault has its unique identify code, helping to verify detail information and location efficiently.",
+      "text3": "The safety of goods is the highest priority of the custodian. It will try its best to take care of customer’s property."
+    },
+    "method": {
+      "title": "How to use Luxury Archive NFT",
+      "text1": "The Luxury Archive NFT is issued when the physical valuables deposited to the vault to the owner of the property. The owner can trade the NFT on Beestyle platform, and the holder who’ve bought the NFT becomes the next owner of the property.",
+      "text2": "The Luxury Archive NFT is the only proof of the ownership of the property under custody. The holder of NFT can visit the custodian at will to redeem the physical property by paying the exercise amount indicated in the NFT description."
+    }
+  },
+  "errorCode": {
+    "10001": "Invalid user",
+    "10002": "The amount is negative",
+    "10003": "Insufficient amount",
+    "10004": "wrong user name or password",
+    "10005": "User already exists",
+    "10006": "Permissions error",
+    "10007": "wrong password",
+    "10008": "Invalid operation",
+    "10009": "operation failed",
+    "10010": "User does not exist",
+    "10011": "Mailbox has been registered",
+    "10101": "Verification code expired",
+    "10102": "Verification code error",
+    "10103": "Template error",
+    "11000": "Not available",
+    "11001": "Incomplete state",
+    "11002": "Cannot be canceled",
+    "11003": "Not available",
+    "11004": "End time error",
+    "11005": "NFT is about to expire",
+    "11006": "Payment method error",
+    "11007": "Payment amount",
+    "11008": "Repeated bid",
+    "11009": "Invalid bid",
+    "11010": "Unable to pay",
+    "11011": "Incountable state",
+    "12001": "Can't buy your own NFT",
+    "20001": "Method is not available",
+    "20002": "Address creation failed",
+    "20003": "Request to the district block chain service provider",
+    "20004": "Address invalid",
+    "20005": "Get an Eth Gas Price failed",
+    "20006": "Database inserted address conflicts with existing address",
+    "20007": "Database inserted MEMO conflicts with existing MEMO",
+    "20008": "Service provider problem",
+    "20009": "Currency invalid",
+    "30001": "Transaction is invalid"
+  },
+  "systemErr": "system error",
+  "unknownErr": "unknown error",
+  "navbar": {
+    "searchPlaceholder": "Search what you want ...",
+    "mobileNavLinkTitle": "Menu",
+    "mobileLoginRegister": "Login / Register",
+    "mobileWallet": "Wallet",
+    "mobileMyAccount": "my account",
+    "mobileSignOut": "Log Out",
+    "navLink1": "Marketplace",
+    "navLink2": "Religious Art",
+    "navLink3": "Street art",
+    "navLink4": "GAME-FI",
+    "navLink5": "What is NFT",
+    "navLink6": "Featured Events",
+    "navLink7": "Create",
+    "accountDropdown": {
+      "dropdownItem1": "Personal Account",
+      "dropdownItem2": "Transaction history",
+      "dropdownItem3": "Log Out"
+    },
+    "walletSideDrawer": {
+      "myAccount": "my account",
+      "record": "record",
+      "accountBalance": "Account Balance",
+      "recharge": "Deposit",
+      "deposit": "Withdraw",
+      "notSignInHint": "You are not logged in yet, please log in first",
+      "depositNFT": "Deposit NFT"
+    },
+    "signInDialog": {
+      "title": "Welcome back",
+      "userName": "Username",
+      "password": "Password",
+      "forgotPassword": "Forgot your password",
+      "signIn": "Login",
+      "registerSuggestion": "Don't have an account?",
+      "register": "Register",
+      "character": "character"
+    },
+    "registerDialog": {
+      "title": "Create account",
+      "userName": "Username",
+      "email": "Email",
+      "password": "Password",
+      "confirmPassword": "Confirm password",
+      "agreement": "By Sign Up, I hereby acknowledge that I agree to the",
+      "terms": "Terms of Service",
+      "createAccount": "Create account",
+      "createSucceed": "Account created successfully",
+      "signInSuggestion": "Already have an account?",
+      "signIn": "Login",
+      "character": "character",
+      "passwordsNotMatch": "Wrong password",
+      "invalidEmailHint": "Invalid email address",
+      "accountType": "Account Type",
+      "person": "Personal",
+      "company": "Company"
+    },
+    "resetPasswordDialog": {
+      "title": "Reset password",
+      "email": "Email",
+      "verificationCode": "Verification code",
+      "sendCode": "Send a verification code",
+      "newPassword": "New password",
+      "confirmNewPassword": "Confirm new password",
+      "resetPassword": "Reset password",
+      "signInSuggestion": "Already have an account?",
+      "signIn": "Login",
+      "lessThan": "Less than",
+      "character": "character",
+      "passwordsNotMatch": "Wrong password",
+      "verificationCodeSent": "Verification code has been sent.",
+      "resetSucceed": "Password reset complete",
+      "invalidEmailHint": "Invalid email address"
+    }
+  },
+  "footer": {
+    "links": {
+      "explore": {
+        "title": "Marketplace",
+        "link1": "All NFT",
+        "link2": "Religious Art",
+        "link3": "Street art",
+        "link4": "GAME-FI"
+      },
+      "aboutNFT": {
+        "title": "What is NFT",
+        "link1": "Introduction NFT",
+        "link2": "Help Center"
+      },
+      "activities": {
+        "title": "Featured Events",
+        "link1": "Exclusive event",
+        "link2": "Latest events"
+      }
+    }
+  },
+  "home": {
+    "famousArtist": {
+      "sectionTitle": "Artists"
+    },
+    "albums": {
+      "sectionTitle": "Top collections",
+      "album": {
+        "amount": "items"
+      }
+    },
+    "activities": {
+      "sectionTitle": "Featured Events",
+      "showMore": "more"
+    },
+    "selects": {
+      "sectionTitle": "Featured NFTs",
+      "select": {
+        "reservationPrice": "Floor price",
+        "alreadyCopyToClipboard": "Link copied successfully"
+      },
+      "showMore": "more"
+    },
+    "storyBanner": null,
+    "intro": {
+      "sectionTitle": "What is <span class='primary--text' style='font-size: 1em;'>BEESTYLE</span>?",
+      "block1": {
+        "blockTitle": "Quickly create your first NFT creation",
+        "blockDescription": "<span class='primary--text' style='font-size: 1em;'>BEESTYLE</span>is an NFT platform focusing on cultural creativity and independent artists, allowing you to join the world of blockchain in the easiest and easiest way"
+      },
+      "block2": {
+        "blockTitle": "Your work is always yours",
+        "blockDescription": "Add a unique digital imprint to your creations through blockchain technology"
+      },
+      "block3": {
+        "blockTitle": "BEESTYLE is your online gallery",
+        "blockDescription": "Not only digital creations,you can also buy physical artworks on <span class='primary--text' style='font-size: 1em;'>BEESTYLE</span>,and each artwork is accompanied by a proof of property rights on the blockchain"
+      },
+      "block4": {
+        "blockTitle": "Selling without borders",
+        "blockDescription": "With <span class='primary--text' style='font-size: 1em;'>BEESTYLE</span> and NFT technology, you can sell your creations to the global market"
+      }
+    },
+    "explore": {
+      "startExplore": "\nStart <span style='color: #ffffff; font-size: 1em;'>Explore</span>",
+      "inputPlaceholder": "Explore what you want...",
+      "submit": "Submit"
+    }
+  },
+  "explore": {
+    "filter": {
+      "filterTitle": "Filter List",
+      "sellWay": "Sale method",
+      "sellWayText": {
+        "onAuction": "Bidding",
+        "buyNow": "Buy Now"
+      },
+      "sellCoin": "Currency",
+      "priceRange": "Price Range",
+      "minPrice": "Minimum",
+      "maxPrice": "Maximum",
+      "cate1": "Religious Art",
+      "cate2": "Street art",
+      "cate3": "GAME-FI",
+      "priceInvalidError": "The minimum value must be smaller than the maximum.",
+      "submit": "Confirm",
+      "clear": "reset",
+      "results": "NFT Results <span class = 'primary - text' style = 'font-size: 1em;'> {Amount} </ span>"
+    },
+    "ordering": {
+      "priceOrdering": "Price",
+      "fromLowToHigh": "High to low",
+      "fromHighToLow": "Low to high",
+      "timeOrdering": "Time",
+      "fromOldToNew": "New to old",
+      "fromNewToOld": "Old to new"
+    }
+  },
+  "user": {
+    "ownedNfts": "NFT owned",
+    "NftRecords": "NFT history record",
+    "accountRecords": "Account history record",
+    "isOnSale": "It has been added to",
+    "notOnSale": "Unopened",
+    "expired": "Expired",
+    "destroyed": "Burned",
+    "offer": "My Bidding",
+    "bargain": "My bargain",
+    "favorite": "Collect",
+    "transferRecords": "Deposit & Withdraw History",
+    "propertyChangeRecords": "Account History",
+    "orderRecords": "Order History",
+    "all": "all",
+    "myOffer": "My Offer",
+    "myBid": "My Bidding",
+    "profileEditDialog": {
+      "userAvatar": "User avatar",
+      "userCover": "User cover",
+      "userNickname": "User nickname",
+      "userNicknameLabel": "Please enter a nickname",
+      "userNicknameRules": {
+        "required": "Be required",
+        "maximum": "Nickname up to {0} word"
+      },
+      "userDescription": "User profile",
+      "userDescriptionLabel": "Please enter an introduction",
+      "submit": "Confirm the changes",
+      "updateSucceed": "Updated your profile"
+    }
+  },
+  "nftCard": {
+    "expireDate": "Expire time",
+    "notOnSale": "Unopened",
+    "d": "sky",
+    "h": "Time",
+    "m": "Minute",
+    "s": "Second"
+  },
+  "nft": {
+    "backToPreviousPage": "Back to the previous page",
+    "price": "Price",
+    "highestPrice": "Highest price",
+    "startingPrice": "Standrage price",
+    "cate1": "Religious Art",
+    "cate2": "Street art",
+    "cate3": "GAME-FI",
+    "creator": "creator",
+    "owner": "Owner",
+    "expirationDate": "expiry date",
+    "share": "Share link",
+    "alreadyCopyToClipboard": "Successful replication link",
+    "buy": "Direct purchase",
+    "sell": "sell",
+    "offer": "Bidding",
+    "bargain": "bargain",
+    "cancelBargain": "Disclose",
+    "bargainHint": "You have {0} question request",
+    "clickToLook": "Click here to view",
+    "list": "On the shelves",
+    "notList": "Not yet",
+    "offShelf": "Get off",
+    "makeDeal": "make a deal",
+    "introduction": "Introduction",
+    "tabs": {
+      "description": "Detail",
+      "price": "Market",
+      "offers": "Bidding",
+      "bargains": "bargain",
+      "history": "history",
+      "details": "detail"
+    },
+    "bargainDialog": {
+      "title": "You have {0} question request",
+      "description": "You can choose a direct sales of a bargain",
+      "alert": "After selecting the payment, please confirm, then click"
+    },
+    "cancelBargainDialog": {
+      "title": "Cancellation negative confirmation",
+      "description": "Once canceled, your bargain will be removed, do you want to cancel?",
+      "cancelSuccess": "Cancellation bargain"
+    },
+    "confirmMakeDeal": {
+      "title": "Transaction confirmation",
+      "description": "Once the transaction, your NFT will be transferred to others and confirm that it is necessary to pay?"
+    },
+    "withdrawNFT": {
+      "withdraw": "Withdraw",
+      "title": "Transfer details",
+      "transferUser": "Sender:",
+      "receiveAddress": "Receiving address",
+      "available": "Available Balance",
+      "titleSuccess": "The transfer request has been successfully submitted.",
+      "errorAddress": "Please enter the correct payment address",
+      "text": "Please enter Beestyle user email or BSC wallet address"
+    }
+  }
+}

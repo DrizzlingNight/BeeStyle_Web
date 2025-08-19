@@ -1,0 +1,116 @@
+@import '~vuetify/src/styles/main.sass';
+@import './font.scss';
+@import './variables.scss';
+
+$color-pack: false;
+
+$font-family: 'TC-regular';
+
+// css 變數 *********************************************
+:root {
+  
+  // 字體大小
+  --text-basic: 12px;
+  --text-md: 14px;
+  --text-lg: 16px;
+  --text-title: 20px;
+
+  // 顏色
+  --text-color: #333333;
+  --text-secondary: #919191;
+  --text-opposite: #ffffff;
+
+  --primary: #F4C245;
+  --bg1: #ffffff; // 主背景 
+  --bg2: #f6f6f6; // header 下半部
+  --bg3: #ffffff; // header 上半部
+  --bg4: #e6e4e4; // 語言選擇背景
+  --bg-card: #ffffff; // NFT卡片背景
+
+  // 邊距
+}
+
+
+// style settings **************************************
+.v-application {
+  [class*='text-'] {
+      font-family: $font-family !important;
+  }
+  font-family: $font-family !important;
+}
+
+body, html {
+  // width: 100vw !important;
+  // height: 100%;
+  font-size: var(--text-basic) !important;
+  font-family: $font-family !important;
+  color: var(--text-color);
+  overflow-x: hidden;
+}
+
+p, a, span {
+  color: var(--text-color);
+  font-size: var(--text-basic);
+}
+
+// divider
+::v-deep .v-divider {
+  border-color: #e2e2e2;
+}
+
+// 分頁器樣式 正常化
+.v-pagination__navigation,
+.v-pagination__item--active {
+  box-shadow: none !important;
+}
+
+// 測試檢驗用 pink border
+.pink-border {
+  border: 1px solid pink !important;
+}
+
+
+
+// 手機版 *********************************************
+@media screen and (max-width: 600px) {
+
+  body, html {
+    font-size: 16px !important;
+  }
+
+  // 變數
+  :root {
+    --text-basic: 16px;
+    --text-md: 18px;
+    --text-lg: 20px;
+    --text-title: 24px;
+  }
+}
+
+
+// dark mode ******************************************
+[data-theme = "dark"] {
+  --text-color: #ffffff;
+  --text-secondary: #919191;
+
+  --primary: #F4C245;
+  --bg1: #060608;
+  --bg2: #18181d;
+  --bg3: #1d1c1c;
+  --bg4: #404040;
+  --bg-card: linear-gradient(180deg, #383838 0%, #2B2B2B 100%);
+
+  // divider
+  .v-divider {
+    border-color: rgba($color: #ffffff, $alpha: .5) !important;
+  }
+
+  // btn disabled
+.theme--dark.v-btn.v-btn--disabled {
+  background: rgba($color: #ffffff, $alpha: .3) !important;
+  box-shadow: none !important;
+  span {
+    color: #1e1e1e !important;
+  }
+}
+}
